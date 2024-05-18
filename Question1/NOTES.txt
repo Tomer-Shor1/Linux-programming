@@ -1,0 +1,4 @@
+This file has 3 different programs, where in each of them other a core  is being dumped.
+In order to run the files, use: $ make run
+To debug: $ coredumpctl gdb <executable>
+To graphic debug: $ ddd <executable> </var/lib/systemd//coredump/core.<coredump ID>>
